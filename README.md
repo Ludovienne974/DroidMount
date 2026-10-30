@@ -4,15 +4,19 @@
   <img src="Resources/app-icon.png" alt="DroidMount icon" width="128"/>
 </p>
 
+<p align="center">
+  <img src="Resources/demo.gif" alt="DroidMount demo — Android storage mounted as a Finder volume" width="640"/>
+</p>
+
+<p align="center">
+<em>Plug your phone → it appears in Finder → drag & drop files.</em>
+</p>
+
 **Mount your Android device's storage as a native network volume on macOS — over USB, no root, no companion app.**
 
 DroidMount is a lightweight macOS menu bar app that makes your Android phone's storage appear in Finder like any other network drive. It detects your connected device via **ADB** (Android Platform Tools), bridges it to a small built-in **WebDAV server**, and lets the Finder mount it natively as a read/write volume.
 
 No kernel extensions (macFUSE), no third-party Android app to install, no drama.
-
-<p align="center">
-  <em>Plug your phone → a volume appears in Finder → drag & drop files.</em>
-</p>
 
 ---
 
